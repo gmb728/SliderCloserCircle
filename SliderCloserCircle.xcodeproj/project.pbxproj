@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DDF8BDF52125266300CC9D2B /* SliderCloser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderCloser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF8BDF52125266300CC9D2B /* SliderCloserCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderCloserCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF8BDF82125266300CC9D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDF8BDFA2125266300CC9D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDF8BDFD2125266300CC9D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		DDF8BDEC2125266200CC9D2B = {
 			isa = PBXGroup;
 			children = (
-				DDF8BDF72125266300CC9D2B /* SliderCloser */,
+				DDF8BDF72125266300CC9D2B /* SliderCloserCircle */,
 				DDF8BDF62125266300CC9D2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		DDF8BDF62125266300CC9D2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDF8BDF52125266300CC9D2B /* SliderCloser.app */,
+				DDF8BDF52125266300CC9D2B /* SliderCloserCircle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDF8BDF72125266300CC9D2B /* SliderCloser */ = {
+		DDF8BDF72125266300CC9D2B /* SliderCloserCircle */ = {
 			isa = PBXGroup;
 			children = (
 				DDF8BE0A212652AE00CC9D2B /* voice.m4a */,
@@ -64,15 +64,15 @@
 				DDF8BE012125266600CC9D2B /* LaunchScreen.storyboard */,
 				DDF8BE042125266600CC9D2B /* Info.plist */,
 			);
-			path = SliderCloser;
+			path = SliderCloserCircle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDF8BDF42125266300CC9D2B /* SliderCloser */ = {
+		DDF8BDF42125266300CC9D2B /* SliderCloserCircle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDF8BE072125266600CC9D2B /* Build configuration list for PBXNativeTarget "SliderCloser" */;
+			buildConfigurationList = DDF8BE072125266600CC9D2B /* Build configuration list for PBXNativeTarget "SliderCloserCircle" */;
 			buildPhases = (
 				DDF8BDF12125266300CC9D2B /* Sources */,
 				DDF8BDF22125266300CC9D2B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SliderCloser;
+			name = SliderCloserCircle;
 			productName = SliderCloser;
-			productReference = DDF8BDF52125266300CC9D2B /* SliderCloser.app */;
+			productReference = DDF8BDF52125266300CC9D2B /* SliderCloserCircle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DDF8BDF02125266300CC9D2B /* Build configuration list for PBXProject "SliderCloser" */;
+			buildConfigurationList = DDF8BDF02125266300CC9D2B /* Build configuration list for PBXProject "SliderCloserCircle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDF8BDF42125266300CC9D2B /* SliderCloser */,
+				DDF8BDF42125266300CC9D2B /* SliderCloserCircle */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
-				INFOPLIST_FILE = SliderCloser/Info.plist;
+				INFOPLIST_FILE = SliderCloserCircle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SliderCloser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SliderCloserCircle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +304,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
-				INFOPLIST_FILE = SliderCloser/Info.plist;
+				INFOPLIST_FILE = SliderCloserCircle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SliderCloser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.SliderCloserCircle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDF8BDF02125266300CC9D2B /* Build configuration list for PBXProject "SliderCloser" */ = {
+		DDF8BDF02125266300CC9D2B /* Build configuration list for PBXProject "SliderCloserCircle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDF8BE052125266600CC9D2B /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDF8BE072125266600CC9D2B /* Build configuration list for PBXNativeTarget "SliderCloser" */ = {
+		DDF8BE072125266600CC9D2B /* Build configuration list for PBXNativeTarget "SliderCloserCircle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDF8BE082125266600CC9D2B /* Debug */,

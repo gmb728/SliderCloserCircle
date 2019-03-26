@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SliderCloser.xcodeproj">
+      location = "self:/Users/changsophia/Documents/SliderCloserCircle/SliderCloserCircle.xcodeproj">
    </FileRef>
 </Workspace>
